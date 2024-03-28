@@ -9,8 +9,8 @@ public class X2Test {
         int a = 10;
         int b = 0;
         int c = 0;
-        int x = 2;
-        int expected = 40;
+        int x = 3;
+        int expected = 90;
         int rsl = X2.calc(a, b, c, x);
         Assert.assertEquals(expected, rsl);
     }
