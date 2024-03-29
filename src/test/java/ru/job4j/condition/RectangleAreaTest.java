@@ -6,7 +6,7 @@ import static org.assertj.core.api.Assertions.*;
 class RectangleAreaTest {
 
     @Test
-    void whenP6K2Square2() {
+    void whenP6K2Square1() {
         int expected = 2;
         int p = 6;
         double k = 2;
@@ -15,7 +15,7 @@ class RectangleAreaTest {
     }
 
     @Test
-    void whenP6K2Square3() {
+    void whenP6K2Square2() {
         double expected = 3.55;
         int p = 8;
         double k = 2;
@@ -24,7 +24,7 @@ class RectangleAreaTest {
     }
 
     @Test
-    void whenP6K2Square4() {
+    void whenP6K2Square3() {
         double expected =  3.47;
         int p = 10;
         double k = 5;
@@ -33,7 +33,7 @@ class RectangleAreaTest {
     }
 
     @Test
-    void whenP6K2Square5() {
+    void whenP6K2Square4() {
         int expected = 5;
         int p = 12;
         double k = 5;
