@@ -13,6 +13,7 @@ class RectangleAreaTest {
         double output = RectangleArea.square(p, k);
         assertThat(output).isEqualTo(expected, withPrecision(0.01));
     }
+
     @Test
     void whenP6K2Square3() {
         double expected = 3.55;
@@ -21,6 +22,7 @@ class RectangleAreaTest {
         double output = RectangleArea.square(p, k);
         assertThat(output).isEqualTo(expected, withPrecision(0.01));
     }
+
     @Test
     void whenP6K2Square4() {
         double expected =  3.47;
@@ -29,6 +31,7 @@ class RectangleAreaTest {
         double output = RectangleArea.square(p, k);
         assertThat(output).isEqualTo(expected, withPrecision(0.01));
     }
+
     @Test
     void whenP6K2Square5() {
         int expected = 5;
