@@ -1,8 +1,8 @@
 package ru.job4j.calculator;
 
-
-import org.junit.Assert;
 import org.junit.Test;
+import static org.assertj.core.api.Assertions.withPrecision;
+import static org.assertj.core.api.AssertionsForInterfaceTypes.assertThat;
 
 public class FitTest {
 
@@ -10,15 +10,15 @@ public class FitTest {
     public void whenMan180Then92() {
         short input = 180;
         double expected = 90;
-        double out = Fit.manWeight(input);
-        Assert.assertEquals(expected, out, 0.01);
+        double output = Fit.manWeight(input);
+        assertThat(output).isEqualTo(expected, withPrecision(0.01));
     }
 
     @Test
     public void whenWoman170Then69() {
         short input = 167;
         double expected = 63;
-        double out = Fit.womanWeight(input);
-        Assert.assertEquals(expected, out, 0.01);
+        double output = Fit.manWeight(input);
+        assertThat(output).isEqualTo(expected, withPrecision(0.01));
     }
 }
