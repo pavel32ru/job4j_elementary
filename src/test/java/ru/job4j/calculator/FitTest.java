@@ -1,8 +1,8 @@
 package ru.job4j.calculator;
 
 import org.junit.Test;
-import static org.assertj.core.api.Assertions.withPrecision;
-import static org.assertj.core.api.AssertionsForInterfaceTypes.assertThat;
+import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
+import static org.assertj.core.api.BDDAssertions.withPrecision;
 
 public class FitTest {
 
