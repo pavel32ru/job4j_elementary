@@ -23,10 +23,10 @@ public class RectangleAreaTest  {
     }
 
     @Test
-    public void whenP8K2Square3dot55() {
-        double expected = 3.55;
+    public void whenP8K2Square2dot56() {
+        double expected = 2.56;
         int p = 8;
-        double k = 2;
+        double k = 4;
         double out = RectangleArea.square(p, k);
         Assert.assertEquals(expected, out, 0.01);
     }
