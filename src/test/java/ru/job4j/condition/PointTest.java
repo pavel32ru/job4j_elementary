@@ -17,7 +17,7 @@ class PointTest {
     }
 
     @Test
-    void when00to20then3dot() {
+    void when00to6dot4() {
         double expected = 6.4;
         int x1 = 9;
         int y1 = 0;
@@ -28,7 +28,7 @@ class PointTest {
     }
 
     @Test
-    void when00to20then4() {
+    void when00to4dot47() {
         double expected = 4.47;
         int x1 = 2;
         int y1 = 4;
@@ -39,7 +39,7 @@ class PointTest {
     }
 
     @Test
-    void when00to20then5() {
+    void when00to5dot12() {
         double expected = 4.12;
         int x1 = 2;
         int y1 = 4;
