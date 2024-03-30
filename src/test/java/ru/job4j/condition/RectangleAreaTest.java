@@ -1,9 +1,10 @@
 package ru.job4j.condition;
 
 import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 public class RectangleAreaTest  {
+
     @Test
     public void whenP6K2Square2() {
         int expected = 2;
@@ -14,7 +15,7 @@ public class RectangleAreaTest  {
     }
 
     @Test
-    public void whenP4K1Square3() {
+    public void whenP4K1Square1() {
         int expected = 1;
         int p = 4;
         double k = 1;
@@ -23,7 +24,7 @@ public class RectangleAreaTest  {
     }
 
     @Test
-    public void whenP8K2Square2dot56() {
+    public void whenP8K4Square2dot56() {
         double expected = 2.56;
         int p = 8;
         double k = 4;
