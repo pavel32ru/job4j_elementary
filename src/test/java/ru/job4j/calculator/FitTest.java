@@ -1,8 +1,7 @@
 package ru.job4j.calculator;
 
-import org.junit.Test;
-import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
-import static org.assertj.core.api.BDDAssertions.withPrecision;
+import org.junit.jupiter.api.Test;
+import static org.assertj.core.api.Assertions.*;
 
 public class FitTest {
 
@@ -15,10 +14,10 @@ public class FitTest {
     }
 
     @Test
-    public void whenWoman167Then90() {
+    public void whenWoman167Then63() {
         short input = 167;
-        double expected = 90;
-        double output = Fit.manWeight(input);
+        double expected = 63;
+        double output = Fit.womanWeight(input);
         assertThat(output).isEqualTo(expected, withPrecision(0.01));
     }
 }
