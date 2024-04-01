@@ -1,4 +1,4 @@
-package ru.job4j.condition;
+package ru.job4j.converter;
 
 public class DummyBot {
     public static String answer(String question) {
