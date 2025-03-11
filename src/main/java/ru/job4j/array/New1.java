@@ -6,7 +6,7 @@ public class New1 {
     String[] surnames = new String[100500];
     String[] names = new String[4];
     float[] prices = new float[40];
-    names[0] = "Ivan Ivanovvvv";
+    names[0] = "Ivan Ivanov";
     names[1] = "Petr Petrov";
     names[2] = "Pavel Pavlov";
     names[3] = "Alex Alexov";
